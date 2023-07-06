@@ -386,22 +386,6 @@ fun ViewImage()
                                             .show()
                                 }
                 )
-                Box(
-                        contentAlignment = Alignment.Center,
-                        modifier = Modifier
-                                .size(48.dp, 48.dp)
-                                .clip(CircleShape)
-                                .background(color = Color(0x35FFFFFF))
-                ) {
-                    Image(
-                            painter = painterResource(id = R.drawable.play_button),
-                            contentDescription = null,
-                            modifier = Modifier
-                                    .size(25.dp)
-                                    .align(Alignment.Center)
-                    )
-                }
-
             }
         }
         item {
