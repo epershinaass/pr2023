@@ -265,11 +265,11 @@ fun ReviewDota(){
 fun LogoDota(){
     Row(
             horizontalArrangement = Arrangement.Center,
-            modifier = Modifier.padding(horizontal = 24.dp, vertical = 274.dp)
+            modifier = Modifier.padding(horizontal = 24.dp, vertical = 275.dp)
     ) {
         Box(contentAlignment = Alignment.Center,
                 modifier = Modifier
-                        .size(82.dp, 82.dp)
+                        .size(83.dp, 83.dp)
                         .clip(RoundedCornerShape(12.dp))
                         .background(color = Color(0xFF000000))
                         .border(
@@ -282,7 +282,7 @@ fun LogoDota(){
                     alpha = 1.0F,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
-                            .size(56.dp, 56.dp)
+                            .size(55.dp, 55.dp)
                             .padding(4.dp)
                             .clip(
                                     RoundedCornerShape(0.dp)
@@ -290,8 +290,8 @@ fun LogoDota(){
             )
         }
         Column(modifier = Modifier
-                .size(130.dp, 86.dp)
-                .padding(start = 12.dp, top = 29.dp)) {
+                .size(130.dp, 85.dp)
+                .padding(start = 12.dp, top = 30.dp)) {
 
             Text(
                     text = "Dota 2",
@@ -378,7 +378,7 @@ fun ViewImage()
                         contentDescription = null,
                         contentScale = ContentScale.FillBounds,
                         modifier = Modifier
-                                .size(240.dp, 128.dp)
+                                .size(234.dp, 125.dp)
                                 .clip(RoundedCornerShape(16.dp))
                                 .clickable {
                                     Toast
@@ -393,7 +393,7 @@ fun ViewImage()
                     painter = painterResource(R.drawable.screen2),
                     contentDescription = null,
                     modifier = Modifier
-                            .size(240.dp, 128.dp)
+                            .size(234.dp, 125.dp)
             )
         }
 
@@ -415,22 +415,22 @@ fun MessageReviews(painter: Painter, author: String, date: String){
                 Text(
                         text = author,
                         color = Color(0xFFEEF2FB),
-                        modifier = Modifier.size(114.dp, 19.dp),
+                        modifier = Modifier.size(115.dp, 19.dp),
                         fontSize = 13.sp)
                 Text(
                         text = date,
                         color = Color(0x60FFFFFF),
-                        modifier = Modifier.size(102.dp, 14.dp),
+                        modifier = Modifier.size(100.dp, 14.dp),
                         fontSize = 9.sp)
             }
 
         }
-        Column(modifier = Modifier.padding(top = 14.dp)){
+        Column(modifier = Modifier.padding(top = 15.dp)){
             val text = "\"Once you start to learn its secrets, there's a wild and exciting variety of play here that's unmatched, even by its peers.\""
             Text(
                     text = text,
                     color = Color(0xFFA8ADB7),
-                    modifier = Modifier.size(327.dp, 65.dp),
+                    modifier = Modifier.size(325.dp, 66.dp),
                     fontSize = 12.sp,
                     lineHeight = 16.sp
             )
